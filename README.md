@@ -17,3 +17,4 @@ yarn expo start --tunnel
 ```
 
 ## Libraries Used
+- react-native-ble-manager
