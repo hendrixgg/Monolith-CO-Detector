@@ -15,3 +15,6 @@ if the QR code is scanning, but not loading, running this instead will fix it:
 ```
 yarn expo start --tunnel
 ```
+
+## Libraries Used
+- react-safe-area-context
