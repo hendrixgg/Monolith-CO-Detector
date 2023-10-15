@@ -18,3 +18,4 @@ yarn expo start --tunnel
 
 ## Libraries Used
 - react-native-ble-manager
+- react-safe-area-context
