@@ -14,7 +14,7 @@ export default function MainScreen({ COConcentration }) {
         <SafeAreaView style={styles.container}>
             <View style={{ justifyContent: 'center', width: '100%' }}>
                 <View style={{ alignItems: 'center', width: '100%' }}>
-                    <Text>MONOLITH (use good font/logo)</Text>
+                    <Text>MONOLITH [use good font/logo]</Text>
                 </View>
                 {/* 
                 Have not decided yet what the menu (settings for accounts and notifications) will contain.
@@ -49,11 +49,11 @@ export default function MainScreen({ COConcentration }) {
                     - this selection should be a searchable menu that allows you to search by date or by location or by session name
                 */}
                 <View style={{ alignItems: 'center' }}>
-                    <Text>Insert Graph Here</Text>
+                    <Text>[Insert Graph Here]</Text>
                 </View>
             </View>
             <View style={styles.footer}>
-                <Text>Insert Ad Here</Text>
+                <Text>[Insert Ad Here]</Text>
             </View>
             <StatusBar style="auto" />
         </SafeAreaView>
