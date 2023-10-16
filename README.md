@@ -17,5 +17,5 @@ yarn expo start --tunnel
 ```
 
 ## Libraries Used
-- react-native-ble-manager
+- need to select some working bluetooth low energy library
 - react-safe-area-context
