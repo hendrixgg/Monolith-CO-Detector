@@ -1,21 +1,16 @@
-# Monolith-CO-Detector
- Mobile App Built with React Native for use with the Monolith CO gas detector.
+# flutter_application_1
 
-## How to Run Demo
-Make sure you have installed the Expo Go app on your mobile device.
+A new Flutter project.
 
-Then, navigate to the client folder and run:
-```
-yarn expo start
-```
+## Getting Started
 
-Scan the QR code with your phone -> this will open up the Expo Go app.
+This project is a starting point for a Flutter application.
 
-if the QR code is scanning, but not loading, running this instead will fix it:
-```
-yarn expo start --tunnel
-```
+A few resources to get you started if this is your first Flutter project:
 
-## Libraries Used
-- need to select some working bluetooth low energy library
-- react-safe-area-context
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
