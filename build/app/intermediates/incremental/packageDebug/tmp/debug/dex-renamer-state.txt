@@ -1,0 +1,4 @@
+#Fri Oct 27 20:06:57 EDT 2023
+base.0=C\:\\Users\\Hendrix\\Documents\\GitHub\\Monolith-CO-Detector\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

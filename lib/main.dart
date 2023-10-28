@@ -22,6 +22,7 @@ class _MyAppState extends State<MyApp> {
     super.initState();
   }
 
+  // This is really just to connect to a bluetooth device with name "UltrasonicSensor".
   Future<void> connectToUltrasonicSensor() async {
     await flutterBlue.startScan();
     flutterBlue.scanResults.listen((results) {
