@@ -3,10 +3,12 @@ import 'package:flutter_blue/flutter_blue.dart';
 import 'package:fl_chart/fl_chart.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
   _MyAppState createState() => _MyAppState();
 }
@@ -66,7 +68,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Ultrasonic Sensor Data'),
+          title: const Text('Ultrasonic Sensor Data'),
         ),
         body: Column(
           children: <Widget>[
@@ -78,15 +80,15 @@ class _MyAppState extends State<MyApp> {
                   children: <Widget>[
                     Text(
                       distance,
-                      style: TextStyle(fontSize: 20),
+                      style: const TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
                       onPressed: connectToUltrasonicSensor,
-                      child: Text('Connect to Device'),
+                      child: const Text('Connect to Device'),
                     ),
                     ElevatedButton(
                       onPressed: () => startListeningToSensor(),
-                      child: Text('Start Listening to Sensor'),
+                      child: const Text('Start Listening to Sensor'),
                     ),
                   ],
                 ),
