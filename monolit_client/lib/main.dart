@@ -5,6 +5,7 @@
 // 2. Example for maintaining a conneciton to a device: https://github.com/sonnny/picow_ble_nordic_spp/blob/main/flutter/blecontroller.dart
 // 3. Ask for permissions using: https://pub.dev/packages/permission_handler
 
+// TODO: Change folder name
 import 'dart:async';
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
